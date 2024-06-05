@@ -1,0 +1,595 @@
+/* #hero{ */
+    /* height: 100vh;
+    background-image: url("https://bootstrapmade.com/demo/templates/Append/assets/img/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} */
+ 
+/*  */
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+/* }
+ #hero .email{
+    background-color: white; 
+    margin-bottom:1rem ;
+
+ } */
+
+
+
+
+
+#offcanvas a:hover{
+    color: red;
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+
+
+
+
+#hero img{
+    background-position: center;
+    background-size: cover;
+}
+
+#hero input{
+    background-color: white;
+    /* width: 15rem; */
+    /* padding-bottom; */
+}
+
+.para{
+    animation: para 2s ease-in-out forwards;
+}
+
+@keyframes para {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(0);
+
+    }
+}
+.img1{
+    height: 5rem;
+    width: 5rem;
+     filter: grayscale(100%); /* Apply grayscale effect */
+  transition: filter 0.5s ease; /* Smooth transition on hover */
+}
+
+.img1:hover {
+  filter: none; /* Remove filter on hover */
+}
+
+#about .icon1{
+    height: 4.6rem;
+    width: 4.1rem;
+    background-color:rgba(0, 0, 0, 0.071);
+    /* font-size: 4rem; */
+    border-radius: 50%;
+    color: red;
+    
+}
+/* .img-container
+{
+    position: relative;
+} */
+
+/* .overlay-image{ */
+     /* top: -50%;
+    left: -50%; */
+    /* transform: translate(-50%,-50%); */
+     /* width: 10rem; 
+     height:4rem;   */
+/* } */
+
+#about .icon1:hover{
+    /* height: 4.6rem; */
+    /* width: 4.1rem; */
+    background-color:rgba(255, 0, 0, 0.603);
+    /* font-size: 4rem; */
+    /* border-radius: 50%; */
+    color:white;
+}
+
+#about .card{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #131313;
+    flex-wrap: wrap;
+    /* animation: sagar 2s infinite 5 forwards ; */
+    /* animation-name: sagar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s; */
+}
+
+
+#pricing .icon{
+  background-color:rgba(0, 0, 0, 0.079);
+    color: red;
+    height: 4rem;
+    width: 3.8rem;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 50%;
+
+}
+#pricing .icon:hover{
+    color:white;
+    background-color: red;  
+}
+
+
+
+#contact i{
+  background-color:rgba(0, 0, 0, 0.079);
+    color: red;
+    height: 4rem;
+    width: 3.8rem;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 50%;
+
+}
+
+#contact i:hover{
+      background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+
+@keyframes sagar {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(0);
+
+    }
+}
+
+#about .card:hover{
+
+    animation: sagar 1.5s alternate infinite ;
+}
+
+
+@keyframes sagar {
+    /* from{
+
+    }
+    to{
+        /* transform: skew(20deg, 10deg); */
+        /* transform: scale(1.2); */
+        /* transform: rotate(360deg); */
+
+    /* } */
+     0%{
+        transform: rotateZ(0deg);
+        transform: translateX(0deg);
+     }
+     100%{
+        /* transform: rotateZ(90deg); */
+        /* transform: translateX(200px); */
+        transform: scale(1.2);
+     }
+     /* 100%{
+        transform: translateX(0);
+        
+     } */
+}
+
+.icon {
+            font-size: 4rem; /* Adjust the size */
+            color: #333; /* Change the color */
+        }
+
+#image{
+    background-image: url("https://bootstrapmade.com/demo/templates/Append/assets/img/stats-bg.jpg");
+    background-size: cover;
+    background-position: center;
+      height: 40vh;
+  width: 100%;
+  color: white;
+}
+
+
+
+
+.para1{
+    animation: para1 2s ease-in-out forwards;
+}
+
+@keyframes para1 {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(0);
+
+    }
+}
+
+
+.img2{
+    animation: img1 2s alternate infinite;
+    height: 80%;
+    width: 80%;
+    box-shadow: 0.4rem  0.4rem  0.4rem  0.4rem #131313;
+    border: 2px solid white;
+}
+@keyframes img1{
+    0%{
+         transform: rotateZ(0deg);
+        transform: translateX(0deg);
+}
+
+100%{
+   transform: translateX(50px);
+        /* transform: rotate(360deg); */
+}
+}
+
+/* .para2{
+    animation: para2 2s ease-in-out forwards;
+}
+
+@keyframes para2 {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(0);
+
+    }
+} */
+
+
+.card2{
+    height: 40rem;
+    width: 100%;
+}
+
+.card4{
+    height: 40rem;
+    width: 100%;
+}
+
+
+.card5{
+    height: 15rem;
+    width: 100%;
+}
+
+
+
+.wrapper{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+   position: relative; 
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s ease;
+    
+   
+}
+
+ img{
+    width: 100%;
+    display: block;
+    margin: auto;
+   
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover{
+    opacity: 1.5; 
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #131313;
+    
+
+}
+
+.cardone{
+    background-color: #f1f1f1;
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #131313;
+    border-radius: 0.8rem;
+}
+/* 
+#pricing .card{
+    border: 1px solid red; */
+
+/* } */
+#pricing .click i{
+    color: green;
+}
+#pricing .card-body h1{
+    color: red;
+    border-radius: 50%;
+}
+
+#pricing button:hover{
+    color:white;
+}
+#pricing .col{
+    border-radius: 0.8rem;
+}
+
+/* .dropdown{
+    border: 2px solid black;
+    gap: 2; */
+/* } */
+
+
+#team img{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+.wrapper1{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: all 0.6s ease;
+}
+
+img{
+    width: 100%;
+    display: block;
+    margin: auto;  
+}
+/* img:hover{
+color: black;
+
+} */
+
+#team a{
+    color: white;
+}
+
+#team a:hover{
+    color: red;
+}
+
+.icons{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: red;
+}
+
+.icons:hover{
+    opacity: 1;
+}
+
+#image1{
+    background-image: url("https://bootstrapmade.com/demo/templates/Append/assets/img/cta-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+/* .carousel-img{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+} */
+
+
+#service .icon{
+    background-color:rgba(0, 0, 0, 0.079);
+    color: red;
+    height: 7rem;
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+
+#service .icon:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+
+#service h2:hover{
+    color: red;
+}
+
+#question button{
+    font-size: 1.2rem;
+
+
+}
+#question button:hover{
+    color: red;
+}
+
+.img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 10% 5%;
+    background: white;
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #131313;
+
+    color: black;
+    border-radius: 15px;
+}
+
+.img-text h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.img-text p{
+    font-size: 14px;
+}
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.img-area{
+     position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid aqua;
+    overflow: hidden; 
+    top: 15px;
+    left: 12px;
+    border-radius: 50%;
+}
+
+.img-area img{
+    width: 100%;
+}
+
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+
+.carousel-indicators button{
+    background: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators .active{
+    background: #fff;
+}
+
+#info .fa-solid{
+    color: gold;
+}
+#info .card1:hover{
+    transform: scale(1.1);
+    transition: 2s;
+
+} 
+
+.smallImg{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+
+
+#contact .box-loc{
+    border: 2px solid black;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+#Recent-Posts .imgsm{
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #131313;
+    border-radius: 0.8rem;
+}
+
+
+#Recent-Posts .imgsm:hover{
+    /* transform: translate(100px) */
+    transform: scale(1.2);
+    transition: 2s;
+
+}
+
+#contact .con .fa-solid{
+    /* border: 2px solid black; */
+    color: red;
+}
+
+#append a{
+    color:black;
+    text-decoration: none;
+
+}
+#append a:hover{
+    color: red;
+}
+
+#append   .fa-twitter,.fa-facebook,.fa-instagram,.fa-linkedin{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5rem;
+}
+
+
+#footer .fa-solid{
+
+    color: white;
+}
+
+  @media screen and (max-width:427px) {
+    #hero h1{
+        /* height: 100vh; */
+        font-size: 1rem !important;
+        padding-top: 5rem !important;
+        
+    }
+    
+}
+ @media screen and (max-width:768px)
+ {
+    #about .cards{
+        width: 10% !important;
+        /* height: 40% !important; */
+    }
+ }
